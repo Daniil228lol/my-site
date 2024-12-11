@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    max-width: 800px; /* Ширина контента */
+    margin: auto; /* Центрирование контента */
+}
+
+h1, h2 {
+    color: #007BFF;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav ul {
+    list-style-type: none; /* Убирает стандартные маркеры списка */
+    padding: 0; /* Убирает отступы у списка */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.product {
+    margin: 20px 0;
+
+    text-align: center; /* Центрирование изображений и текста */
+}
+
+img {
+    display: block;
+    margin: 20px auto; /* Центрирование изображений на странице */
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #fff;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #eaeaea;
+    margin: 20px 0;
+}
